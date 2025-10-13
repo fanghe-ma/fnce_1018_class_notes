@@ -122,24 +122,18 @@ Note that $G$ excludes
 Government spending on fixed investments or inventory is counted under $G$, not $I$.
 
 \begin{remark}
-
 \[
-\underbrace{
-\underbrace{
-    \text{National Income}
-    + \text{Statistical Discrepancy}
-}_{\text{Net National Product}}
-+ \text{Depreciation}
-}_{\text{Gross National Product}}
-+ \text{NFP}
-= \text{Gross Domestic Product}
+    GNP = NNP + Depr + NFP
+\]
+\[
+GDP = GNP + NFP
 \]
 \end{remark}
 
 \begin{definition}
     \textbf{Private disposable income} is the amount of income that the private sector has available to spend.
     \[
-        \text{private disposable income} = Y + NFP + TR + INT - T
+       Y + NFP + TR + INT - T
     \]
 \end{definition}
 
@@ -295,7 +289,7 @@ Given a decrease in $A$,
                 domain = 0:10,
                 restrict y to domain = 0:10,
                 samples = 800,
-                color = red,
+                color = black,
             ]{1.5*x^0.3*2^0.7};
             \node[right] at (current axis.right of origin) {Labor, $N$};
             \node[above] at (current axis.above origin) {Output, $Y$};

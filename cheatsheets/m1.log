@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  13 OCT 2025 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  13 OCT 2025 11:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,39 +750,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 88.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-Overfull \hbox (174.29825pt too wide) detected at line 136
-[] \OT1/cmr/m/n/7 +[] = []
- []
-
-
-Overfull \hbox (40.43755pt too wide) detected at line 143
-[] \OT1/cmr/m/n/7 = \OML/cmm/m/it/7 Y \OT1/cmr/m/n/7 + \OML/cmm/m/it/7 NFP \OT1/cmr/m/n/7 + \OML/cmm/m/it/7 TR \OT1/cmr/m/n/7 + \OML/cmm/m/it/7 INT \OMS/cmsy/m/n/7 ^^@ \OML/cmm/m/it/7 T
- []
-
-
-Overfull \hbox (3.2547pt too wide) detected at line 157
+Overfull \hbox (3.2547pt too wide) detected at line 151
 []
  []
 
 
-Overfull \hbox (32.66606pt too wide) detected at line 239
+Overfull \hbox (32.66606pt too wide) detected at line 233
 []
  []
 
 
-Overfull \hbox (11.7073pt too wide) in paragraph at lines 303--306
+Overfull \hbox (11.7073pt too wide) in paragraph at lines 297--300
  [] 
  []
 
 
-Overfull \hbox (2.64801pt too wide) detected at line 486
+Overfull \hbox (2.64801pt too wide) detected at line 480
 []
  []
 
 <../graphs/fig_4_5.jpg, id=7, 476.78125pt x 389.455pt>
 File: ../graphs/fig_4_5.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_5.jpg>
-Package pdftex.def Info: ../graphs/fig_4_5.jpg  used on input line 515.
+Package pdftex.def Info: ../graphs/fig_4_5.jpg  used on input line 509.
 (pdftex.def)             Requested size: 72.60623pt x 59.30711pt.
 [1
 
@@ -790,65 +780,65 @@ Package pdftex.def Info: ../graphs/fig_4_5.jpg  used on input line 515.
 <../graphs/fig_4_12.jpg, id=22, 367.3725pt x 209.78375pt>
 File: ../graphs/fig_4_12.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_12.jpg>
-Package pdftex.def Info: ../graphs/fig_4_12.jpg  used on input line 539.
+Package pdftex.def Info: ../graphs/fig_4_12.jpg  used on input line 533.
 (pdftex.def)             Requested size: 72.60623pt x 41.45984pt.
 <../graphs/fig_4_6.jpg, id=23, 511.9125pt x 516.93124pt>
 File: ../graphs/fig_4_6.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_6.jpg>
-Package pdftex.def Info: ../graphs/fig_4_6.jpg  used on input line 576.
+Package pdftex.def Info: ../graphs/fig_4_6.jpg  used on input line 570.
 (pdftex.def)             Requested size: 58.08409pt x 58.65312pt.
 <../graphs/fig_4_1.jpg, id=24, 334.24875pt x 310.15875pt>
 File: ../graphs/fig_4_1.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_1.jpg>
-Package pdftex.def Info: ../graphs/fig_4_1.jpg  used on input line 597.
+Package pdftex.def Info: ../graphs/fig_4_1.jpg  used on input line 591.
 (pdftex.def)             Requested size: 72.60623pt x 67.3738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 []\OT1/cmr/m/n/7 Substitution
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+Underfull \hbox (badness 10000) in paragraph at lines 600--601
 \OT1/cmr/m/n/7 ef-fect:
  []
 
 <../graphs/fig_4_2.jpg, id=25, 510.90875pt x 489.83pt>
 File: ../graphs/fig_4_2.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_2.jpg>
-Package pdftex.def Info: ../graphs/fig_4_2.jpg  used on input line 610.
+Package pdftex.def Info: ../graphs/fig_4_2.jpg  used on input line 604.
 (pdftex.def)             Requested size: 55.76129pt x 53.45543pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 615--617
+Underfull \hbox (badness 10000) in paragraph at lines 609--611
 []\OT1/cmr/m/n/7 Lenders con-sump-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
 []\OT1/cmr/m/n/7 Substitution
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--618
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
 \OT1/cmr/m/n/7 ef-fect:
  []
 
 <../graphs/fig_4_3.jpg, id=26, 510.90875pt x 489.83pt>
 File: ../graphs/fig_4_3.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_3.jpg>
-Package pdftex.def Info: ../graphs/fig_4_3.jpg  used on input line 621.
+Package pdftex.def Info: ../graphs/fig_4_3.jpg  used on input line 615.
 (pdftex.def)             Requested size: 55.76129pt x 53.45543pt.
 <../graphs/fig_4_7.jpg, id=27, 560.0925pt x 351.3125pt>
 File: ../graphs/fig_4_7.jpg Graphic file (type jpg)
 <use ../graphs/fig_4_7.jpg>
-Package pdftex.def Info: ../graphs/fig_4_7.jpg  used on input line 658.
+Package pdftex.def Info: ../graphs/fig_4_7.jpg  used on input line 652.
 (pdftex.def)             Requested size: 72.60623pt x 45.53821pt.
 
-Overfull \hbox (7.37872pt too wide) detected at line 677
+Overfull \hbox (7.37872pt too wide) detected at line 671
 [] \OT1/cmr/m/n/7 = [] \OMS/cmsy/m/n/7 ^^@ []
  []
 
 
-Overfull \hbox (31.2882pt too wide) in paragraph at lines 684--692
+Overfull \hbox (31.2882pt too wide) in paragraph at lines 678--686
  [] 
  []
 
@@ -859,13 +849,13 @@ Package rerunfilecheck Info: File `m1.out' has not changed.
 Here is how much of TeX's memory you used:
  33511 strings out of 476025
  781335 string characters out of 5790017
- 1964388 words of memory out of 5000000
+ 1963388 words of memory out of 5000000
  53413 multiletter control sequences out of 15000+600000
  515283 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,17n,80p,789b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,15n,80p,789b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary7.pfb>
-Output written on m1.pdf (2 pages, 543863 bytes).
+Output written on m1.pdf (2 pages, 542850 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

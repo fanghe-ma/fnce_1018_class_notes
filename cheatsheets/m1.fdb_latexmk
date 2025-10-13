@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1760329605 "/Users/fanghema/Desktop/aaFNCE_1018/fnce_1018_class_notes/cheatsheets/m1.tex" "m1.pdf" "m1" 1760329607 0
+["pdflatex"] 1760369527 "/Users/fanghema/Desktop/aaFNCE_1018/fnce_1018_class_notes/cheatsheets/m1.tex" "m1.pdf" "m1" 1760369530 0
   "../graphs/fig_4_1.jpg" 1759692273 34671 a27956ad2089a71371ee94a34291c9ad ""
   "../graphs/fig_4_12.jpg" 1760328572 42224 5be713fb530f0dff7a497352cf8cfff9 ""
   "../graphs/fig_4_2.jpg" 1759693131 75095 03c4587a2da3fbcc75c664d88b3f95b2 ""
@@ -7,7 +7,7 @@
   "../graphs/fig_4_5.jpg" 1759694731 38229 cc355d609297ab92fec9a35399279f44 ""
   "../graphs/fig_4_6.jpg" 1759710309 72938 a565fc052dec72b3fbedb702809bc451 ""
   "../graphs/fig_4_7.jpg" 1759715152 48251 2fd13a40a86db7644b6d2269ed971440 ""
-  "/Users/fanghema/Desktop/aaFNCE_1018/fnce_1018_class_notes/cheatsheets/m1.tex" 1760329603 24337 b508857b3da9b71b6bffbb62b6706479 ""
+  "/Users/fanghema/Desktop/aaFNCE_1018/fnce_1018_class_notes/cheatsheets/m1.tex" 1760369530 24128 bcb8dd611991892fd5e45ecd59af2a4b ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
@@ -218,9 +218,9 @@
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1693360557 7883453 7512e057c6808cc4ab57b2931450f837 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
   "cheatsheet_style.tex" 1760329510 3988 1be704685ef4031d2d522cee3723ccc6 ""
-  "m1.aux" 1760329607 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
-  "m1.out" 1760329606 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "m1.tex" 1760329603 24337 b508857b3da9b71b6bffbb62b6706479 ""
+  "m1.aux" 1760369530 554 04ae3964aa57b78538b565d0454a3de2 "pdflatex"
+  "m1.out" 1760369528 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "m1.tex" 1760369530 24128 bcb8dd611991892fd5e45ecd59af2a4b ""
   (generated)
   "m1.aux"
   "m1.log"
