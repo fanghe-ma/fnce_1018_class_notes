@@ -1,0 +1,699 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Source: Dave Richeson (divisbyzero.com), Dickinson College
+% Version francaise par Vincent Pantaloni, prof.pantaloni.free.fr
+% Traduction, correction et adaptation à la typographie française.
+% 
+% Une anti-seche en deux pages pour une intro rapide ou un aide mémoire des différentes fonctions. A imprimer en recto verso par exemple.
+%
+% Feel free to distribute this example, but please keep the referral
+% to divisbyzero.com
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper, 9pt,landscape]{extarticle}
+\input{cheatsheet_style}
+% \usepackage{fontspec}
+% \usepackage[T1]{fontenc}
+\usepackage{amssymb,amsmath,amsthm,amsfonts}
+\usepackage{multicol,multirow}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{stmaryrd}
+\usepackage{mathtools}
+% \usepackage[landscape]{geometry}
+
+\ifthenelse{\lengthtest { \paperwidth = 11in}}
+    { \geometry{top=.2in,left=.2in,right=.2in,bottom=.2in} }
+	{\ifthenelse{ \lengthtest{ \paperwidth = 297mm}}
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+		{\geometry{top=1cm,left=1cm,right=1cm,bottom=1cm} }
+	}
+\pagestyle{empty}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%x
+                                {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+                                {-1explus -.5ex minus -.2ex}%
+                                {0.5ex plus .2ex}%
+                                {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+                                {-1ex plus -.5ex minus -.2ex}%
+                                {1ex plus .2ex}%
+                                {\normalfont\small\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+% -----------------------------------------------------------------------
+
+\begin{document}
+
+\raggedright
+\footnotesize
+
+\begin{multicols*}{5}
+\setlength{\premulticols}{1pt}
+\setlength{\postmulticols}{1pt}
+\setlength{\multicolsep}{1pt}
+\setlength{\columnsep}{2pt}
+
+\begin{definition}
+    \textbf{Gross Domestic Product (Product Approach)} is defined as the market value of final goods and services newly produced within a nation during a fixed period of time.
+\end{definition}
+
+\textbf{Market value}: prices at which goods and services are sold
+\begin{itemize}
+    \item (+): Allows adding of production of different goods and services
+    \item (-): Some goods or services are not sold in formal markets, denoted \textbf{nonmarket goods and services}.
+\end{itemize}
+
+\textbf{Newly produced}: GDP only includes goods and services produced within current period.
+
+\textbf{Final}: Goods and services are final if they are not intermediate. Goods and services are intermediate if they are used up in the production of others \textbf{in the same period they were produced}. \textbf{inventories} are a final good. 
+
+\begin{definition}
+    \textbf{Gross National Product} is defined as the market value of final goods and services newly produced \textit{by domestic factors of production} during the current period.
+\end{definition}
+
+\begin{definition}
+    \textbf{NFP} or \textbf{Net factor payments from abroad} is defined as the income paid to domestic factors of production by the rest of the world minus income paid to foreign factors of production by the domestic economy.
+    \[
+        \text{GDP} = \text{GNP} - \text{NFP}
+    \]
+\end{definition}
+
+\begin{definition}
+    \textbf{Income-Expenditure Identity}: The \textbf{Gross Domestic Product} (Expenditure Approach) is defined as the total spending on final goods and services produced within a nation during a specified period of time. 
+    \[
+        Y = C + I + G + NX
+    \]
+\end{definition}
+
+
+\textbf{Investment} includes spending on
+\begin{itemize}
+    \item fixed investment: spending on new capital goods
+    \begin{itemize}
+        \item business fixed investment
+        \item residential investment
+    \end{itemize} 
+    \item inventory investment: spending on inventory holdings
+    \begin{itemize}
+        \item including produced goods that are unsold
+    \end{itemize} 
+\end{itemize} 
+
+\textbf{Government purchases} of goods and services include expenditure by government for a currently produced good or service, foreign or domestic. \\
+
+Note that $G$ excludes
+\begin{itemize}
+    \item transfers 
+    \item interest payment on national debt
+\end{itemize} 
+
+Government spending on fixed investments or inventory is counted under $G$, not $I$.
+
+\begin{remark}
+
+\[
+\underbrace{
+\underbrace{
+    \text{National Income}
+    + \text{Statistical Discrepancy}
+}_{\text{Net National Product}}
++ \text{Depreciation}
+}_{\text{Gross National Product}}
++ \text{NFP}
+= \text{Gross Domestic Product}
+\]
+\end{remark}
+
+\begin{definition}
+    \textbf{Private disposable income} is the amount of income that the private sector has available to spend.
+    \[
+        \text{private disposable income} = Y + NFP + TR + INT - T
+    \]
+\end{definition}
+
+\begin{definition}
+    \textbf{Net government income} is taxes paid by private sector, minus payments from government to the private sector 
+    \[
+        \text{net government income} = T - TR - INT
+    \]
+\end{definition}
+
+\begin{definition}
+    \textbf{Private saving} is defined as the difference of private disposable income and consumption 
+    \begin{align*}
+        S_{pvt} = (Y + NFP - T + TR + INT) - C
+    \end{align*}
+\end{definition}
+
+
+\begin{remark}
+    Note that \textbf{investments} is not subtracted from private disposable income even though it constitutes private spending, because it \textit{does not satisfy current needs}.
+\end{remark}
+
+\begin{definition}
+    \textbf{Government saving} is defined as net government income, less goernment purchases of goods and services 
+    \begin{align*}
+        S_{govt} = (T - TR - INT) - G
+    \end{align*}
+\end{definition}
+
+\begin{remark}
+    \textbf{Government budget surplus} is defined as government receipts less outlays 
+    \begin{align*}
+        \text{budget surplus} &= T - (G + TR + INT) \\
+        &= S_{govt}
+    \end{align*}
+\end{remark}
+
+\begin{theorem}
+    \textbf{Uses-of-saving identity} The economy's private saving is used in 3 ways 
+    \[
+        S_{pvt} = I + (- S_{govt}) + CA
+    \]
+\end{theorem}
+
+\begin{definition}
+    \textbf{National Wealth} is the total wealth of residents in a country, consisting of 
+    \begin{itemize}
+        \item domestic physical assets, i.e. capital goods and land
+        \item net foreign assets, comprising of 
+        \begin{itemize}
+            \item (+) foreign physical and financial assets 
+            \item (-) foreign physical and financial liabilities 
+        \end{itemize} 
+    \end{itemize} 
+\end{definition}
+
+
+\begin{definition}
+    The \textbf{GDP deflator} is a price index that measures the overall level of prices of goods and services included in GDP. 
+    \[
+        \text{GDP deflator} = 100 \times \frac{ \text{nominal GDP}}{ \text{real GDP}}
+    \]
+\end{definition}
+
+
+\begin{definition}
+    The \textbf{Consumer Price Index}, or \textbf{CPI}, measures the prices of consumer goods, calculated as 100 times the current cost of a specific baset of consumer items divided by the cost of the same basket in the reference base period.
+\end{definition}
+
+\begin{remark}
+    The CPI tends to overstate increases in cost of living because of
+    \begin{itemize}
+        \item improvements in quality of goods and services
+        \item substition bias
+        \begin{itemize}
+            \item CPI doesn't account for substitution away from the specified basket of goods
+        \end{itemize} 
+    \end{itemize} 
+\end{remark}
+
+\begin{definition}
+    \textbf{Inflation rate} for a given period is defined as the percentage change in the price index in the same period.
+    \[
+        \pi_{t + 1} = \frac{P_{t + 1} - P_t}{P_t} = \frac{\triangle P_{t+1}}{P_t}
+    \]
+\end{definition}
+
+\begin{definition}
+    The \textbf{real interest rate} on an asset is the rate at which the real value or purchasing power of the asset increases over time. \\
+
+
+    The \textbf{nominal interest rate} on an asset is the rate at which the nominal value or purchasing power of the asset increases over time.
+
+    \begin{align*}
+    \text{real interes rate} &= \text{nominal interest rate} - \text{inflation} \\
+    &= i - \pi
+    \end{align*}
+\end{definition}
+
+\begin{definition}
+    \textbf{Expected real interest rate} is the nominal interest rate minus expected rate of inflation. 
+    \[
+        r = i - \pi^e
+    \]
+\end{definition}
+
+\begin{definition}
+    The \textbf{Marginal product of capital} is the increase in output produced that results from a one-unit increase in capital stock. 
+    \[
+        MPK = \frac{\triangle Y}{\triangle K}
+    \]
+\end{definition}
+
+\begin{definition}
+    The \textbf{Marginal product of labor} is the increase in output produced that results from a one-unit increase in labor. 
+    \[
+        MPN = \frac{\triangle Y}{\triangle N}
+    \]
+\end{definition}
+
+\begin{remark}
+    The $MPK$ and $MPN$
+    \begin{itemize}
+        \item are positive 
+        \item are decreasing in $K$ / $N$, due to diminishing marginal product
+    \end{itemize} 
+\end{remark}
+
+\begin{remark}
+Given a decrease in $A$, 
+    \begin{itemize}
+        \item the marginal product decreases for every value of $N$
+        \item the amount of output decreases for every value of $N$
+    \end{itemize} 
+    \centering
+    \begin{tikzpicture}
+        \begin{axis}[
+                scale = 0.5,
+                xmin = 0, xmax = 10,
+                ymin = 0, ymax = 10,
+                axis lines* = left, 
+                xtick = {0}, ytick = \empty,
+                clip = false,
+            ]
+            % Y = AK^{0.3}N^{0.7}, with A=3, K=2
+            \addplot[
+                domain = 0:10,
+                restrict y to domain = 0:10,
+                samples = 800,
+                color = black,
+            ]{3*x^0.3*2^0.7};
+            \addplot[
+                domain = 0:10,
+                restrict y to domain = 0:10,
+                samples = 800,
+                color = red,
+            ]{1.5*x^0.3*2^0.7};
+            \node[right] at (current axis.right of origin) {Labor, $N$};
+            \node[above] at (current axis.above origin) {Output, $Y$};
+        \end{axis}
+    \end{tikzpicture}
+    \textbf{Fig - Decrease in $A$, holding $K$ fixed}
+    Note that 
+    \begin{align*}
+        &A_2 < A_1 \\
+        \implies&  Y_2 < Y_1 \\
+        \implies&  MPN_2 <  MPN_1
+    \end{align*}
+\end{remark}
+
+\begin{definition}
+    \textbf{Marginal revenue product of labor} is the benefit of employing an additioinal worker in terms of the extra revenue produced. 
+    \[
+        MRPN = P \times MPN
+    \]
+\end{definition}
+
+The quantity of labor demanded is 
+\begin{itemize}
+    \item in nominal terms: equal to the $MRPN$
+    \item in real terms: equal to $MPN$
+\end{itemize} 
+
+\begin{definition}
+    \text{Real wage} refers to the wage measured in terms of units of output.
+    \[
+        w = \frac{W}{P}
+    \]
+\end{definition}
+
+\begin{remark}
+    Note that firms will want to increase employment under the following condition, all 4 statements are equivalent
+    \begin{align*}
+        & MPN > w  \\
+        \iff & MPN > \frac{W}{P}  \\
+        \iff & P \times MPN > W  \\
+        \iff & MPRN > W 
+    \end{align*}
+
+    Vice versa for condition under which the firm will want to decrease employment
+\end{remark}
+
+\begin{remark}
+Factors that affect labor demand must change the amount of labor that firms want to employ \textit{at any given level of the real wage}.\\
+
+The labor demand increases in response to 
+\begin{itemize}
+    \item $A \uparrow$, productivity improvements / positive supply shock
+    \item $K \uparrow$, increase in capital supply
+\end{itemize} 
+\end{remark}
+
+\begin{definition}
+    The \textbf{substitution effect} refers to an increase in the opportunity cost of leisure causing workers to substitute away from leisure towards work.
+\end{definition}
+
+\begin{remark}
+    \textbf{Pure substitution effect}: one-day rise in real wage, $NS \uparrow$.  \\
+\end{remark}
+
+\begin{definition}
+    The \textbf{income effect} refers to workers being better off and hence working less.
+\end{definition}
+\begin{remark}
+    \textbf{Pure income effect}: changes in $Z$, e.g. winning the lottery, or higher expected future real wages, $NS \downarrow$ \\
+\end{remark}
+
+\begin{remark} 
+    \textbf{Income} and \textbf{substition} effect work in opposite directions on labor supply.  \\
+
+    An increase in real wages 
+    \begin{itemize}
+        \item raises the marginal benefit of work, increases labor supply, by \textbf{substitution effect}
+        \item increases workers' wealth, decreases labor supply, by \textbf{income effect}
+    \end{itemize}   
+\end{remark}
+
+
+\begin{remark}
+The labor supply shifts left in response to 
+\begin{itemize}
+    \item increases in weath, $NS \downarrow$
+    \item increases in expected future real wage, $NS \downarrow$
+    \item decrease in working age population
+    \item decrease in participation rate
+\end{itemize} 
+\end{remark}
+
+\begin{definition}
+    \textbf{Full-employment level of employment}, $ \bar{N} $ is defined as the equilibrium level of employment. The corresponding market-clearing real wage is $ \bar{w} $.
+\end{definition}
+
+\begin{definition}
+    \textbf{Full-employment output}, $\bar{Y}$, also called \textbf{potential output}, is the level of output that firms in the economy supply when wages and prices have fully adjusted. 
+
+    $\bar{Y} $ is achieved when aggregate employment reaches its full-employment level, $\bar{N}$
+    \[
+        \bar{Y}  = AF \left( K, \bar{N}  \right) 
+    \]
+\end{definition}
+\begin{remark}
+    A decrease in $A$ reduces $\bar{Y} $ in two ways
+    \begin{itemize}
+        \item  $A \downarrow \rightarrow \bar{Y} \downarrow$ directly 
+        \item  $A \downarrow \rightarrow MPN \downarrow \rightarrow ND \downarrow \rightarrow \bar{N} \downarrow \rightarrow \bar{Y} \downarrow $ 
+    \end{itemize} 
+\end{remark}
+
+\begin{remark}
+    Classification of individuals:
+    \begin{itemize}
+        \item $E$, employed, if person worked full-time or part-time during the past week
+        \item $U$, unemployed, if person didn't work during the past week but looked for work in the past four weeks
+        \item $NLF$, not in labor force, if the person didnt work and didn't look for work in the past 4 weeks
+        \begin{itemize}
+            \item discouraged workers, people who become discouraged and move from $U$ to $NLF$
+        \end{itemize} 
+    \end{itemize} 
+    \begin{align*}
+        \text{labor force} &= LF =  E + U \\
+        \text{adult population} &= LF + NLF \\
+        \text{participation rate} &= \frac{LF}{LF + NLF} \\
+        \text{employment ratio} &= \frac{E}{LF + NLF}
+    \end{align*}
+\end{remark}
+
+\begin{remark}
+    Sources of unemployment 
+    \begin{itemize}
+        \item \textbf{frictional unemployment}: arises as workers search for suitable jobs and firms search for suitable workers
+        \item \textbf{structural unemployment}: long-term and chronic unemployment that exists even when the economy is not in a recession
+        \begin{itemize}
+            \item unskilled, low skilled workers
+            \item rellocation of labor from shrinking industries / depressed regions
+        \end{itemize} 
+    \end{itemize} 
+\end{remark}
+
+\begin{definition}
+    The \textbf{natural rate of unemployment}, $ \bar{u} $ is the rate of unemployment that prevails when output and employment are at the full-employment level. \\
+
+    The difference betwen actual unemployment and natural unemployment is \textbf{cyclical unemployment} 
+    \[
+    \text{cyclical unemployment}= u - \bar{u} 
+    \]
+\end{definition}
+
+\begin{theorem}
+    \textbf{Okun's Law} states that the gap between full-employment output and actual output increases by 2 percent for each percent increase in unemployment 
+    \[
+    \frac{\bar{Y} - Y }{\bar{Y} } = 2 \left( u  - \bar{u}  \right) 
+    \]
+
+    Alternatively, the percentage change in real output is roughly 3 percent minus two times the change in unemployment
+    \[
+    \frac{\triangle Y}{Y} = \frac{\triangle \bar{Y} }{ \bar{Y} }  - 2 \triangle u
+    \]
+\end{theorem}
+
+
+\begin{definition}
+    An individual's \textbf{Present Value of Lifetime Resources, $PVLR$} is defined as 
+    \[
+        PVLR = a + y + \frac{y^f}{1 + r}
+    \]
+\end{definition}
+
+\begin{definition}
+    An individual's \textbf{Present Value of Lifetime Consumption, $PVLC$} is defined as 
+    \[
+        PVLC = c + \frac{c^f}{1 + r}
+    \]
+\end{definition}
+
+
+
+\begin{definition}
+    An individual's \textbf{budget constraint} is given by
+    \begin{align*}
+        PVLC &= PVLR \\
+        c + \frac{c^f}{1 + r} &= (a + y) + \frac{y^f}{1+r} \\
+        c^f &= (a + y - c) (1 + r) + y^f \\
+        &= \underbrace{(a + y)(1 + r)+ y^f}_{intercept}   \underbrace{ - (1+r)}_{slope} c 
+    \end{align*}
+\end{definition}
+
+\begin{remark}
+    We can classify individuals as lending or borrowing 
+    \begin{itemize}
+        \item lending, if $c < a + y \iff a + y - c > 0$
+        \item borrowing if $c > a + y \iff a + y - c < 0$
+    \end{itemize} 
+\end{remark}
+
+
+\begin{remark}
+    We can classify individuals as saving or dissaving
+    \begin{itemize}
+        \item saving, if $y > c$
+        \item dissaving, if $y < c$
+        \begin{itemize}
+            \item borrowing, if $c > y + a \iff a + y - c < 0$
+        \end{itemize} 
+    \end{itemize} 
+
+    \textbf{Dissaving} $\neq$ \textbf{Borrowing}.
+\end{remark}
+
+
+\begin{remark}
+    \textbf{Slope of indifference curve}
+\begin{center}
+\includegraphics[width = 0.5\columnwidth]{../graphs/fig_4_5.jpg}
+\end{center}
+    \begin{itemize}
+        \item $U_1$: \textbf{present-oriented}, steeper, values consumption today, require a lot of consumption to give up a unit of consumption today
+        \item $U_2$: \textbf{future-oriented}, flatter, require a lot of consumption today to give up a unit of consumption tomorrow
+    \end{itemize} 
+\end{remark}
+
+
+\begin{remark}
+    Income effect occurs when 
+    \begin{itemize}
+        \item $a \uparrow$
+        \item $y \uparrow$
+        \item $y^f \uparrow$
+    \end{itemize} 
+    As a result
+    \begin{itemize}
+        \item $PVLR \uparrow$
+        \item $r$ unchanged
+    \end{itemize} 
+
+    \textbf{Income effect} operates through $PVLR$ with unchanged $r$.
+\begin{center}
+\includegraphics[width = 0.5\columnwidth]{../graphs/fig_4_12.jpg}
+\end{center}
+\end{remark}
+
+\begin{theorem}
+    The \textbf{Riccardian Equivalence Proposition} states that tax cuts do not affect desired consumption or national saving because in the long run, because all government purchases must be paid for by taxes. 
+\end{theorem}
+
+\begin{remark}
+    \textbf{Riccardian Assumptions}
+    \begin{enumerate}
+        \item Assuming REP does not hold 
+        \begin{itemize}
+            \item People spend some and save some, i.e. \textit{consumption smoothing}
+            \[
+            T \downarrow \implies c \uparrow, s \uparrow
+            \]
+        \end{itemize} 
+        \item Assuming REP holds and \textbf{there are borrowing constraints}
+        \begin{itemize}
+            \item Borrowers facing constraints increase consumption, 
+            \[
+            T \downarrow \implies c \uparrow, s \downarrow
+            \]
+        \end{itemize}
+        \item Assuming REP holds and there are no borrowing constraints 
+        \[
+        T \downarrow \implies c, s \text{ constant }
+        \]
+    \end{enumerate}
+\end{remark}
+
+
+\begin{remark}
+    One time tax rebate, assuming REP with borrowing constraints
+    
+    \begin{center}
+    \includegraphics[width = 0.4\columnwidth]{../graphs/fig_4_6.jpg}
+    \end{center}
+
+    If 
+    \begin{itemize}
+        \item $a + \tilde{y} < c^*$ increase $c$ by the full amount of the tax rebate
+        \item $a + \tilde{y} > c^*$ increase $c$ only up to $c^*$
+    \end{itemize} 
+\end{remark}
+
+
+\begin{remark}
+    \textbf{Effect of an increase in interest rate on budget constraint}  
+    \begin{itemize}
+        \item $PVLR \downarrow$: present value of future income decreases
+        \item vertical intecept $\uparrow$: future value of present income and assets increases 
+        \item no-borrowing no-lending point remains the same 
+        \item $c^*$: depends
+    \end{itemize} 
+
+    \begin{center}
+    \includegraphics[width = 0.5\columnwidth]{../graphs/fig_4_1.jpg}
+    \end{center}
+\end{remark}
+
+\begin{remark}
+    \textbf{Effect of an increase in interest rate} \\
+    \begin{minipage}{0.48\columnwidth}
+        Borrowers unequivocally consume less.
+        \begin{itemize}
+            \item Substitution effect: $r \uparrow \implies s \uparrow c \downarrow$
+            \item Income effect: $r \uparrow \implies s \uparrow c \downarrow$
+        \end{itemize} 
+    \begin{center}
+    \includegraphics[width = 0.8\columnwidth]{../graphs/fig_4_2.jpg}
+    \end{center}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.48\columnwidth}
+        Lenders consumption uncertain
+        \begin{itemize}
+            \item Substitution effect: $r \uparrow \implies s \uparrow c \downarrow$
+            \item Income effect: $r \uparrow \implies s \downarrow c \uparrow$
+        \end{itemize} 
+    \begin{center}
+    \includegraphics[width = 0.8\columnwidth]{../graphs/fig_4_3.jpg}
+    \end{center}
+    \end{minipage}
+\end{remark}
+
+\begin{remark}
+    \textbf{Summary of factors affecting consumption}. \\
+    \begin{center}
+    \begin{tabular}{c | c | c}
+    \textbf{Change} & $\Delta C$ & $\Delta S$ \\ \hline
+    $y \uparrow$     & $c \uparrow$     & $s \uparrow$     \\
+    $a \uparrow$     & $c \uparrow$     & $s \downarrow$   \\
+    $y^{f} \uparrow$ & $c \uparrow$     & $s \downarrow$   \\
+    $r \uparrow$     & $c \downarrow$   & $s \uparrow$     \\
+    \end{tabular}
+    \end{center}
+
+\end{remark}
+
+\begin{definition}
+    A firm's \textbf{desired capital stock} is the profit-maximizing amount of capital for the firm.
+\end{definition}
+
+\begin{remark}
+    The profit-maximizing level of capital is achieved when the expected future marginal benefit, \textit{expected future marignal product of capital}, $MPK^f$ is equal to the expected future marginal cost, \textit{user cost of capital}.
+\end{remark}
+
+\begin{definition}
+    The \textbf{user cost of capital} is the expected real cost of a unit of capital for a specific period of time.  
+    \[
+        uc = (r + d) p_K
+    \]
+\end{definition}
+
+\begin{remark}
+    \textbf{Desired Capital Stock}
+    \begin{center}
+    \includegraphics[width = 0.5\columnwidth]{../graphs/fig_4_7.jpg}
+    \end{center}
+\end{remark}
+
+\begin{definition}
+    The \textbf{tax-adjusted user cost of capital} is the user cost of capital divided by $1 + \tau$ where $\tau$ is the tax rate on firm revenues. \\
+    \[
+        \frac{uc}{1 - \tau} = \frac{(r + d)p_K}{1 - \tau}
+    \]
+\end{definition}
+
+\begin{definition}
+    \textbf{Gross investment} is defined as the total purchase or construction of new capital goods. 
+\end{definition}
+
+\begin{definition}
+    \textbf{Net investment} is defined as the difference between gross investment and depreciation.
+    \[
+    \underbrace{K_{t + 1} - K_t}_{\text{net investment}} = \underbrace{I_t}_{\text{gross investment}} - \underbrace{dK_t}_{ \text{ depreciation}}
+    \]
+\end{definition}
+
+\begin{remark}
+    Summary of factors affecting goods-market equilibrium  \\
+
+    \begin{center}
+    \begin{tabular}{l l c c}
+    	\textbf{Change} & $\Delta C$ & $\Delta S$ \\\hline
+    $A \downarrow$ & $\downarrow$ & $\downarrow$ \\
+    $G \uparrow$ & $\shortdownarrow$ a little & $\downarrow$ \\
+    Wealth $\uparrow$ & $\uparrow$ & $\downarrow$ \\
+    $T \downarrow$ & $\uparrow$ followed by  $\shortdownarrow$ a little & $\uparrow$ \\
+    $\tau \downarrow$ & $\shortdownarrow$ a little & $\shortuparrow$ a little \\
+    \end{tabular}
+    \end{center}
+\end{remark}
+
+
+
+
+\end{multicols*}
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  12 OCT 2025 23:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  13 OCT 2025 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1528,71 +1528,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
 <graphs/fig_4_2.jpg, id=343, 510.90875pt x 489.83pt>
 File: graphs/fig_4_2.jpg Graphic file (type jpg)
 <use graphs/fig_4_2.jpg>
-Package pdftex.def Info: graphs/fig_4_2.jpg  used on input line 485.
+Package pdftex.def Info: graphs/fig_4_2.jpg  used on input line 484.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
 <graphs/fig_4_3.jpg, id=344, 510.90875pt x 489.83pt>
 File: graphs/fig_4_3.jpg Graphic file (type jpg)
 <use graphs/fig_4_3.jpg>
-Package pdftex.def Info: graphs/fig_4_3.jpg  used on input line 497.
+Package pdftex.def Info: graphs/fig_4_3.jpg  used on input line 496.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
 <graphs/fig_4_4.jpg, id=345, 476.78125pt x 389.455pt>
 File: graphs/fig_4_4.jpg Graphic file (type jpg)
 <use graphs/fig_4_4.jpg>
-Package pdftex.def Info: graphs/fig_4_4.jpg  used on input line 506.
+Package pdftex.def Info: graphs/fig_4_4.jpg  used on input line 505.
 (pdftex.def)             Requested size: 203.69203pt x 166.38676pt.
 [17 <./graphs/fig_4_1.jpg> <./graphs/fig_4_2.jpg> <./graphs/fig_4_3.jpg> <./graphs/fig_4_4.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 540--541
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
 <graphs/fig_4_7.jpg, id=350, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_7.jpg Graphic file (type jpg)
 <use graphs/fig_4_7.jpg>
-Package pdftex.def Info: graphs/fig_4_7.jpg  used on input line 580.
+Package pdftex.def Info: graphs/fig_4_7.jpg  used on input line 579.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
 <graphs/fig_4_8.jpg, id=351, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_8.jpg Graphic file (type jpg)
 <use graphs/fig_4_8.jpg>
-Package pdftex.def Info: graphs/fig_4_8.jpg  used on input line 589.
+Package pdftex.def Info: graphs/fig_4_8.jpg  used on input line 588.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
 [18 <./graphs/fig_4_7.jpg>]
 <graphs/fig_4_9.jpg, id=359, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_9.jpg Graphic file (type jpg)
 <use graphs/fig_4_9.jpg>
-Package pdftex.def Info: graphs/fig_4_9.jpg  used on input line 596.
+Package pdftex.def Info: graphs/fig_4_9.jpg  used on input line 595.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--603
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
 [19 <./graphs/fig_4_8.jpg> <./graphs/fig_4_9.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 653--654
+Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--656
+Underfull \hbox (badness 10000) in paragraph at lines 654--655
 
  []
 
 <graphs/fig_4_10.jpg, id=368, 466.74374pt x 367.3725pt>
 File: graphs/fig_4_10.jpg Graphic file (type jpg)
 <use graphs/fig_4_10.jpg>
-Package pdftex.def Info: graphs/fig_4_10.jpg  used on input line 674.
+Package pdftex.def Info: graphs/fig_4_10.jpg  used on input line 673.
 (pdftex.def)             Requested size: 262.61894pt x 206.71378pt.
 <graphs/fig_4_11.jpg, id=369, 466.74374pt x 393.47pt>
 File: graphs/fig_4_11.jpg Graphic file (type jpg)
 <use graphs/fig_4_11.jpg>
-Package pdftex.def Info: graphs/fig_4_11.jpg  used on input line 691.
+Package pdftex.def Info: graphs/fig_4_11.jpg  used on input line 690.
 (pdftex.def)             Requested size: 262.61894pt x 221.39836pt.
 [20 <./graphs/fig_4_10.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 711--712
+Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 721--722
+Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
@@ -1606,7 +1606,7 @@ Package logreq Info: Writing requests to 'FNCE_1018_class_notes.run.xml'.
 Here is how much of TeX's memory you used:
  58026 strings out of 476025
  1339215 string characters out of 5790017
- 2328767 words of memory out of 5000000
+ 2328765 words of memory out of 5000000
  77296 multiletter control sequences out of 15000+600000
  614627 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

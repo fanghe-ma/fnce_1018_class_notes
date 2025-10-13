@@ -1,0 +1,144 @@
+\usepackage{amsthm} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{ifthen}
+\usepackage{calc}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{environ}
+\usepackage{enumitem}
+\usepackage{etoolbox}
+
+\ifthenelse{\lengthtest{\paperwidth = 11in}}
+  {\geometry{paper=letterpaper, landscape, top=.2in,left=.2in,right=.2in,bottom=.2in}}
+  {\ifthenelse{\lengthtest{\paperwidth = 297mm}}
+     {\geometry{paper=a4paper, landscape, top=1cm,left=1cm,right=1cm,bottom=1cm}}
+     {\geometry{landscape, top=1cm,left=1cm,right=1cm,bottom=1cm}}}
+
+\newif\ifbw
+\ifdefined\BW
+  \bwtrue
+\else
+  \bwfalse
+\fi
+
+\setcounter{secnumdepth}{0}
+
+\makeatletter
+\newtheoremstyle{notitle}%
+  {3pt}% space above
+  {3pt}% space below
+  {}% body font
+  {}% indent amount
+  {\bfseries}% theorem head font (bold just in case)
+  {}% punctuation after theorem head
+  {0pt}% space after theorem head
+  {}% theorem head spec
+\makeatother
+
+\theoremstyle{notitle}
+\newtheorem*{definition}{}
+\newtheorem*{theorem}{}
+\newtheorem*{lemma}{}
+\newtheorem*{proposition}{}
+\newtheorem*{corollary}{}
+\newtheorem*{remark}{}
+
+\newcommand{\maybeCol}[1]{\ifbw black\else #1\fi} 
+\newcommand{\maybeBack}[1]{\ifbw white\else #1\fi}
+
+\ifbw
+  \hypersetup{colorlinks=false, hidelinks}
+\else
+  \hypersetup{colorlinks=true, citecolor=blue, linkcolor=blue, urlcolor=blue}
+\fi
+
+\pagestyle{empty}
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%
+  {\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%
+  {\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {1ex plus .2ex}%
+  {\normalfont\small\bfseries}}
+\makeatother
+
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+
+\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=0.25ex}
+\setlist[enumerate]{leftmargin=*, itemsep=0pt, topsep=0.25ex}
+
+\newcommand{\CheatSheetSetup}{%
+  \raggedright
+  \footnotesize
+}
+
+\newlength{\CheatColSep}
+\setlength{\CheatColSep}{2pt}
+
+\NewEnviron{cheatsheet}[1][5]{%
+  \begin{multicols*}{#1}
+    \setlength{\premulticols}{1pt}% space above first column
+    \setlength{\postmulticols}{1pt}% space below last column
+    \setlength{\multicolsep}{1pt}% vertical spacing between multi-page chunks
+    \setlength{\columnsep}{\CheatColSep}% column gap
+    \BODY
+  \end{multicols*}
+}
+
+\newcommand{\accentblue}[1]{\textcolor{\maybeCol{blue}}{#1}}
+\newcommand{\accentred}[1]{\textcolor{\maybeCol{red}}{#1}}
+\newcommand{\accentgreen}[1]{\textcolor{\maybeCol{green!40!black}}{#1}}
+
+\newcommand{\cheatrule}{\par\vspace{2pt}\noindent\color{\maybeCol{black!60}}%
+  \rule{\linewidth}{0.3pt}\par\vspace{2pt}}
+
+\newcommand{\cheatgraphic}[1]{\includegraphics[width=\linewidth]{#1}}
+
+\colorlet{CheatRule}{\maybeCol{black!60}}
+\colorlet{CheatLink}{\maybeCol{blue}}
+\colorlet{CheatBack}{\maybeBack{white}}
+
+
+\numberwithin{equation}{section}
+
+% \theoremstyle{plain}
+% \newtheorem{theorem}{Theorem}[section]
+% \newtheorem{lemma}[theorem]{Lemma}
+% \newtheorem{proposition}[theorem]{Proposition}
+% \newtheorem{corollary}[theorem]{Corollary}
+% \newtheorem{claim}[theorem]{Claim}
+
+% \theoremstyle{definition}
+% \newtheorem{definition}[theorem]{Definition}
+% \newtheorem{assumption}[theorem]{Assumption}
+% \newtheorem{example}[theorem]{Example}
+% \newtheorem{algorithm}[theorem]{Algorithm}
+
+% \theoremstyle{remark}
+% \newtheorem{remark}[theorem]{Remark}
+% \newtheorem{note}[theorem]{Note}
+% \newtheorem{warning}[theorem]{Warning}
+
+% \newtheorem*{theorem*}{Theorem}
+% \newtheorem*{lemma*}{Lemma}
+% \newtheorem*{proposition*}{Proposition}
+% \newtheorem*{corollary*}{Corollary}
+% \newtheorem*{definition*}{Definition}
+% \newtheorem*{remark*}{Remark}
+% \newtheorem*{example*}{Example}
+
+\renewcommand{\qedsymbol}{$\blacksquare$} 
+
