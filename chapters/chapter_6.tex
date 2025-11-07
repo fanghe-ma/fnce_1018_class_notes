@@ -2,6 +2,17 @@
 
 \subsection{Growth Accounting}
 
+\begin{definition}
+    (Capital-labor ratio) The capital-labor ratio is the amount of capital stock per worker, denoted 
+    \[
+        k_t = \frac{K_t}{N_t}
+    \]
+\end{definition}
+
+\begin{definition}
+    (Solow Growth Steady State) The Solow steady state is a situation in which the economy's output per worker, consumption per worker, and capital stock per worker are constant. 
+\end{definition}
+
 \begin{result}
     (Growth accounting equation) From the production function
     \[
@@ -18,7 +29,140 @@
     \end{itemize} 
 \end{result}
 
-\subsection{}
+\subsection{Solow Growth Model}
+
+\begin{result}
+    (Solow Growth Model) \\
+
+    Denote 
+    \begin{itemize}
+        \item $N_t$: the population in year $t$ $N_t$
+        \item $Y_t$: output in year $t$
+        \item $I_t$: gross investment in year $t$
+        \item $C_t$: consumption in year $t$
+        \item $S_t$: saving in year $t$
+        \item $y_t = \frac{Y_t}{N_t}$: output per worker in year $t$
+        \item $c_t = \frac{C_t}{N_t}$: consumption per worker in year $t$
+        \item $k_t = \frac{K_t}{N_t}$: capital stock per worker in year $t$
+    \end{itemize} 
+
+    Assume
+    \begin{itemize}
+        \item $N_t$ grows at fixed rate $n$
+        \item economy is closed and $G = 0$, which implies output is either consumed or invested to grow capital stock, then 
+        \[
+            C_t = Y_t - I_t
+        \]
+        \item $S_t$ is proportional to current income for some fixed saving rate 
+        \[
+            S_t = s Y_t
+        \]
+    \end{itemize} 
+
+    The per-worker production function is 
+    \[
+    c_t = Af(k_t) - (n + d) k_t
+    \]
+    
+
+    At steady state, capital grows at $n$, hence 
+    \[
+        I_t = (n +d) K_t
+    \]
+
+    Steady state consumption is therefore 
+    \[
+        C_t = Y_t - (n + d) K_t
+    \]
+
+    In per worker terms, 
+    \[
+    c_t = Af(k_t) - (n + d) k_t
+    \]
+
+    Since national savings equal investment 
+    \[
+        S_t = sY_t = (n + d) K_t \implies f A f(k_t) = (n + d) k_t
+    \]
+
+    At equilibrium, 
+
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_6_3.jpg}
+    \end{center}
+\end{result}
+
+\begin{definition}
+    (Golden Rule capital labor ratio): The golden rule capital labor ratio is the capital-labor ratio that maximizes consumption. 
+
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_6_2.jpg}
+    \end{center}
+\end{definition}
+\begin{remark}
+    There is no equilibrating mechanism to bring $k$ to $k^{**}$.
+\end{remark}
+
+\begin{remark}
+    Effects of change in $s$, saving rate
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_6_4.jpg}
+    \end{center}
+\end{remark}
+
+\begin{remark}
+    Effects of change in $n$, population growth 
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_6_5.jpg}
+    \end{center}
+\end{remark}
+
+\begin{remark}
+    Effects of change in $A$, productivity growth
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_6_6.jpg}
+    \end{center}
+\end{remark}
+
+\subsection{Endogenous Growth Theory}
+\begin{remark}
+    According to Solow Growth Model, sustained growth in output per capital can only be achieved through sustained productivity growth, which is exogenous. \\
+
+    Endogenous growth theory allows for endogenous productivity growth.
+\end{remark}
+
+\begin{example}
+    One endogenous model is 
+    \[
+        Y = AK
+    \]
+    Note that in this model, the marginal product of capital is $A$, and the marginal product of capital does not depend on $K$ (no diminishing marginal products). \\
+
+    Assume that national saving is a constant fraction of output 
+    \[
+        S = sY = sAK
+    \]
+    Also, 
+    \[
+    I = \triangle K +  dK
+    \]
+    Hence 
+    \begin{align*}
+        & I = S \\
+        \implies & \triangle K = dK = sAK \\
+        \implies & \frac{\triangle K}{K} = sA - d \\
+        \implies & \frac{\triangle Y}{Y} = sA - d
+    \end{align*}
+    
+    
+\end{example}
+
+
+
+
+
+
+
 
 
 

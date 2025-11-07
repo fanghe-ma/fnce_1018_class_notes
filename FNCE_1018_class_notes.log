@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  7 NOV 2025 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  7 NOV 2025 15:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1498,7 +1498,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 575--576
  []
 
 [13]) (./chapters/chapter_4.tex [14]
-<graphs/fig_4_5.jpg, id=373, 476.78125pt x 389.455pt>
+<graphs/fig_4_5.jpg, id=378, 476.78125pt x 389.455pt>
 File: graphs/fig_4_5.jpg Graphic file (type jpg)
 <use graphs/fig_4_5.jpg>
 Package pdftex.def Info: graphs/fig_4_5.jpg  used on input line 275.
@@ -1513,12 +1513,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
-<graphs/fig_4_6.jpg, id=383, 511.9125pt x 516.93124pt>
+<graphs/fig_4_6.jpg, id=388, 511.9125pt x 516.93124pt>
 File: graphs/fig_4_6.jpg Graphic file (type jpg)
 <use graphs/fig_4_6.jpg>
 Package pdftex.def Info: graphs/fig_4_6.jpg  used on input line 413.
 (pdftex.def)             Requested size: 203.69203pt x 205.68822pt.
-<graphs/fig_4_1.jpg, id=384, 334.24875pt x 310.15875pt>
+<graphs/fig_4_1.jpg, id=389, 334.24875pt x 310.15875pt>
 File: graphs/fig_4_1.jpg Graphic file (type jpg)
 <use graphs/fig_4_1.jpg>
 Package pdftex.def Info: graphs/fig_4_1.jpg  used on input line 470.
@@ -1528,17 +1528,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
-<graphs/fig_4_2.jpg, id=394, 510.90875pt x 489.83pt>
+<graphs/fig_4_2.jpg, id=399, 510.90875pt x 489.83pt>
 File: graphs/fig_4_2.jpg Graphic file (type jpg)
 <use graphs/fig_4_2.jpg>
 Package pdftex.def Info: graphs/fig_4_2.jpg  used on input line 484.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
-<graphs/fig_4_3.jpg, id=395, 510.90875pt x 489.83pt>
+<graphs/fig_4_3.jpg, id=400, 510.90875pt x 489.83pt>
 File: graphs/fig_4_3.jpg Graphic file (type jpg)
 <use graphs/fig_4_3.jpg>
 Package pdftex.def Info: graphs/fig_4_3.jpg  used on input line 496.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
-<graphs/fig_4_4.jpg, id=396, 476.78125pt x 389.455pt>
+<graphs/fig_4_4.jpg, id=401, 476.78125pt x 389.455pt>
 File: graphs/fig_4_4.jpg Graphic file (type jpg)
 <use graphs/fig_4_4.jpg>
 Package pdftex.def Info: graphs/fig_4_4.jpg  used on input line 505.
@@ -1548,18 +1548,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
-<graphs/fig_4_7.jpg, id=401, 560.0925pt x 351.3125pt>
+<graphs/fig_4_7.jpg, id=406, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_7.jpg Graphic file (type jpg)
 <use graphs/fig_4_7.jpg>
 Package pdftex.def Info: graphs/fig_4_7.jpg  used on input line 579.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
 [19 <./graphs/fig_4_4.jpg>]
-<graphs/fig_4_8.jpg, id=410, 560.0925pt x 351.3125pt>
+<graphs/fig_4_8.jpg, id=415, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_8.jpg Graphic file (type jpg)
 <use graphs/fig_4_8.jpg>
 Package pdftex.def Info: graphs/fig_4_8.jpg  used on input line 588.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
-<graphs/fig_4_9.jpg, id=411, 560.0925pt x 351.3125pt>
+<graphs/fig_4_9.jpg, id=416, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_9.jpg Graphic file (type jpg)
 <use graphs/fig_4_9.jpg>
 Package pdftex.def Info: graphs/fig_4_9.jpg  used on input line 595.
@@ -1579,13 +1579,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 654--655
 
  []
 
-<graphs/fig_4_10.jpg, id=417, 466.74374pt x 367.3725pt>
+<graphs/fig_4_10.jpg, id=422, 466.74374pt x 367.3725pt>
 File: graphs/fig_4_10.jpg Graphic file (type jpg)
 <use graphs/fig_4_10.jpg>
 Package pdftex.def Info: graphs/fig_4_10.jpg  used on input line 673.
 (pdftex.def)             Requested size: 262.61894pt x 206.71378pt.
 [21 <./graphs/fig_4_10.jpg>]
-<graphs/fig_4_11.jpg, id=426, 466.74374pt x 393.47pt>
+<graphs/fig_4_11.jpg, id=431, 466.74374pt x 393.47pt>
 File: graphs/fig_4_11.jpg Graphic file (type jpg)
 <use graphs/fig_4_11.jpg>
 Package pdftex.def Info: graphs/fig_4_11.jpg  used on input line 690.
@@ -1606,7 +1606,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
  []
 
 [23]
-<graphs/fig_5_1.jpg, id=444, 964.60374pt x 444.66125pt>
+<graphs/fig_5_1.jpg, id=449, 964.60374pt x 444.66125pt>
 File: graphs/fig_5_1.jpg Graphic file (type jpg)
 <use graphs/fig_5_1.jpg>
 Package pdftex.def Info: graphs/fig_5_1.jpg  used on input line 109.
@@ -1616,7 +1616,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<graphs/fig_5_2.jpg, id=445, 964.60374pt x 444.66125pt>
+<graphs/fig_5_2.jpg, id=450, 964.60374pt x 444.66125pt>
 File: graphs/fig_5_2.jpg Graphic file (type jpg)
 <use graphs/fig_5_2.jpg>
 Package pdftex.def Info: graphs/fig_5_2.jpg  used on input line 120.
@@ -1626,7 +1626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-<graphs/fig_5_3.jpg, id=446, 964.60374pt x 444.66125pt>
+<graphs/fig_5_3.jpg, id=451, 964.60374pt x 444.66125pt>
 File: graphs/fig_5_3.jpg Graphic file (type jpg)
 <use graphs/fig_5_3.jpg>
 Package pdftex.def Info: graphs/fig_5_3.jpg  used on input line 127.
@@ -1636,7 +1636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-<graphs/fig_5_4.jpg, id=447, 964.60374pt x 444.66125pt>
+<graphs/fig_5_4.jpg, id=452, 964.60374pt x 444.66125pt>
 File: graphs/fig_5_4.jpg Graphic file (type jpg)
 <use graphs/fig_5_4.jpg>
 Package pdftex.def Info: graphs/fig_5_4.jpg  used on input line 137.
@@ -1646,36 +1646,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-<graphs/fig_5_5.jpg, id=453, 960.58875pt x 352.31625pt>
+<graphs/fig_5_5.jpg, id=458, 960.58875pt x 352.31625pt>
 File: graphs/fig_5_5.jpg Graphic file (type jpg)
 <use graphs/fig_5_5.jpg>
 Package pdftex.def Info: graphs/fig_5_5.jpg  used on input line 168.
 (pdftex.def)             Requested size: 407.39186pt x 149.41792pt.
-<graphs/fig_5_6.jpg, id=454, 960.58875pt x 352.31625pt>
+<graphs/fig_5_6.jpg, id=459, 960.58875pt x 352.31625pt>
 File: graphs/fig_5_6.jpg Graphic file (type jpg)
 <use graphs/fig_5_6.jpg>
 Package pdftex.def Info: graphs/fig_5_6.jpg  used on input line 189.
 (pdftex.def)             Requested size: 407.39186pt x 149.41792pt.
-[25 <./graphs/fig_5_4.jpg> <./graphs/fig_5_5.jpg>] [26 <./graphs/fig_5_6.jpg>]) (./chapters/chapter_6.tex [27]) (./chapters/chapter_7.tex) (./chapters/chapter_8.tex) (./FNCE_1018_class_notes.aux)
+[25 <./graphs/fig_5_4.jpg> <./graphs/fig_5_5.jpg>] [26 <./graphs/fig_5_6.jpg>]) (./chapters/chapter_6.tex
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+<graphs/fig_6_3.jpg, id=472, 575.14874pt x 309.155pt>
+File: graphs/fig_6_3.jpg Graphic file (type jpg)
+<use graphs/fig_6_3.jpg>
+Package pdftex.def Info: graphs/fig_6_3.jpg  used on input line 91.
+(pdftex.def)             Requested size: 254.61894pt x 136.86357pt.
+[27]
+<graphs/fig_6_2.jpg, id=481, 656.4525pt x 373.395pt>
+File: graphs/fig_6_2.jpg Graphic file (type jpg)
+<use graphs/fig_6_2.jpg>
+Package pdftex.def Info: graphs/fig_6_2.jpg  used on input line 99.
+(pdftex.def)             Requested size: 254.61894pt x 144.8315pt.
+<graphs/fig_6_4.jpg, id=482, 605.26125pt x 309.155pt>
+File: graphs/fig_6_4.jpg Graphic file (type jpg)
+<use graphs/fig_6_4.jpg>
+Package pdftex.def Info: graphs/fig_6_4.jpg  used on input line 109.
+(pdftex.def)             Requested size: 254.61894pt x 130.05177pt.
+<graphs/fig_6_5.jpg, id=483, 605.26125pt x 309.155pt>
+File: graphs/fig_6_5.jpg Graphic file (type jpg)
+<use graphs/fig_6_5.jpg>
+Package pdftex.def Info: graphs/fig_6_5.jpg  used on input line 116.
+(pdftex.def)             Requested size: 254.61894pt x 130.05177pt.
+<graphs/fig_6_6.jpg, id=484, 605.26125pt x 309.155pt>
+File: graphs/fig_6_6.jpg Graphic file (type jpg)
+<use graphs/fig_6_6.jpg>
+Package pdftex.def Info: graphs/fig_6_6.jpg  used on input line 123.
+(pdftex.def)             Requested size: 254.61894pt x 130.05177pt.
+ [28 <./graphs/fig_6_3.jpg> <./graphs/fig_6_2.jpg> <./graphs/fig_6_4.jpg> <./graphs/fig_6_5.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+[29 <./graphs/fig_6_6.jpg>]) (./chapters/chapter_7.tex) (./chapters/chapter_8.tex) (./FNCE_1018_class_notes.aux)
 Package rerunfilecheck Info: File `FNCE_1018_class_notes.out' has not changed.
-(rerunfilecheck)             Checksum: 037707EE99C1CB45A0C1C94B6F8C969A;8944.
+(rerunfilecheck)             Checksum: EB656C4D30163B0C44975EF1792F33A4;9232.
 Package logreq Info: Writing requests to 'FNCE_1018_class_notes.run.xml'.
 \openout1 = `FNCE_1018_class_notes.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58162 strings out of 476025
- 1341782 string characters out of 5790017
- 2326125 words of memory out of 5000000
- 77387 multiletter control sequences out of 15000+600000
+ 58217 strings out of 476025
+ 1342836 string characters out of 5790017
+ 2325121 words of memory out of 5000000
+ 77430 multiletter control sequences out of 15000+600000
  614627 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,18n,102p,2056b,2416s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on FNCE_1018_class_notes.pdf (27 pages, 1668206 bytes).
+Output written on FNCE_1018_class_notes.pdf (29 pages, 2083153 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 470 compressed objects within 5 object streams
- 134 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 486 compressed objects within 5 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 619 words of extra memory for PDF output out of 10000 (max. 10000000)
 
