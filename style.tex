@@ -176,6 +176,10 @@
 \DeclareMathOperator{\Im}{\text{Im}}
 \DeclareMathOperator{\diag}{\text{diag}}
 
+% === Times for headers & titles only (pdflatex-safe) ===
+% Uses the 'ptm' family (Nimbus Roman) under pdfLaTeX, which is Times-compatible.
+\newcommand{\TitleFont}{\fontfamily{ptm}\selectfont}
+
 \newtheoremstyle{mystyle}{}{}{}{}{\sffamily\bfseries}{.}{ }{}
 \newtheoremstyle{cstyle}{}{}{}{}{\sffamily\bfseries}{.}{ }{\thmnote{#3}}
 \makeatletter
@@ -194,6 +198,7 @@
 \theoremstyle{mystyle}{\newtheorem*{examples}{Examples}}
 \theoremstyle{definition}{\newtheorem*{exercise}{Exercise}}
 \theoremstyle{cstyle}{\newtheorem*{cthm}{}}
+\theoremstyle{mystyle}{\newtheorem{result}[definition]{Result}}
 
 %Warning environment
 \newtheoremstyle{warn}{}{}{}{}{\normalfont}{}{ }{}
@@ -215,6 +220,7 @@
 \tcolorboxenvironment{example}{boxrule=0pt,boxsep=0pt,blanker,borderline west={2pt}{0pt}{Black},left=8pt,right=8pt,sharp corners,before skip=10pt,after skip=10pt,breakable}
 \tcolorboxenvironment{examples}{boxrule=0pt,boxsep=0pt,blanker,borderline west={2pt}{0pt}{Black},left=8pt,right=8pt,sharp corners,before skip=10pt,after skip=10pt,breakable}
 \tcolorboxenvironment{cthm}{boxrule=0pt,boxsep=0pt,colback={gray!10},left=8pt,right=8pt,enhanced jigsaw, borderline west={2pt}{0pt}{gray},sharp corners,before skip=10pt,after skip=10pt,breakable}
+\tcolorboxenvironment{result}{boxrule=0pt,boxsep=0pt,colback={Cyan!10},left=8pt,right=8pt,enhanced jigsaw, borderline west={2pt}{0pt}{Cyan},sharp corners,before skip=10pt,after skip=10pt,breakable}
 
 %align and align* environments with inline size
 \newenvironment{talign}{\let\displaystyle\textstyle\align}{\endalign}
@@ -224,6 +230,9 @@
 \titleformat{\section}{\fontsize{24}{30}\sffamily\bfseries}{\thesection}{20pt}{#1}
 \titleformat{\subsection}{\fontsize{16}{18}\sffamily\bfseries}{\thesubsection}{12pt}{#1}
 \titleformat{\subsubsection}{\fontsize{10}{12}\sffamily\large\bfseries}{\thesubsubsection}{8pt}{#1}
+% \titleformat{\section}{\fontsize{24}{30}\TitleFont\bfseries}{\thesection}{20pt}{#1}
+% \titleformat{\subsection}{\fontsize{16}{18}\TitleFont\bfseries}{\thesubsection}{12pt}{#1}
+% \titleformat{\subsubsection}{\fontsize{10}{12}\TitleFont\bfseries}{\thesubsubsection}{8pt}{#1}
 
 \titlespacing*{\section}{0pt}{5pt}{5pt}
 \titlespacing*{\subsection}{0pt}{5pt}{5pt}

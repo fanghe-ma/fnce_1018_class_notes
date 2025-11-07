@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  13 OCT 2025 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.29)  7 NOV 2025 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1392,10 +1392,6 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \@outlinefile=\write5
 \openout5 = `FNCE_1018_class_notes.out'.
 
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 27.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 27.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1431,7 +1427,13 @@ LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27.
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 27.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) (./FNCE_1018_class_notes.toc
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
+
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}]
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 46.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (./FNCE_1018_class_notes.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1442,9 +1444,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@toc=\write6
 \openout6 = `FNCE_1018_class_notes.toc'.
 
- [1
-
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}] (./chapters/chapter_1.tex) (./chapters/chapter_2.tex
+ [2] (./chapters/chapter_1.tex) (./chapters/chapter_2.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1453,27 +1453,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
+[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-[3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}] [4]
+[4{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
+
+Package tcolorbox Warning: Discard zero height first box part due to break problems (possible loss of zero height content) on input line 259.
+
+[5] [6]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
-[5] [6]) (./chapters/chapter_3.tex [7]
+[7]) (./chapters/chapter_3.tex [8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[8]
+
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
@@ -1488,18 +1492,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
-[10]
+[11] [12]
 Underfull \hbox (badness 10000) in paragraph at lines 575--576
 
  []
 
-[11] [12]) (./chapters/chapter_4.tex [13]
-<graphs/fig_4_5.jpg, id=322, 476.78125pt x 389.455pt>
+[13]) (./chapters/chapter_4.tex [14]
+<graphs/fig_4_5.jpg, id=373, 476.78125pt x 389.455pt>
 File: graphs/fig_4_5.jpg Graphic file (type jpg)
 <use graphs/fig_4_5.jpg>
 Package pdftex.def Info: graphs/fig_4_5.jpg  used on input line 275.
 (pdftex.def)             Requested size: 254.61894pt x 207.98494pt.
- [14 <./graphs/fig_4_5.jpg>]
+ [15] [16 <./graphs/fig_4_5.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
@@ -1509,54 +1513,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 409--410
 
  []
 
-<graphs/fig_4_6.jpg, id=327, 511.9125pt x 516.93124pt>
+<graphs/fig_4_6.jpg, id=383, 511.9125pt x 516.93124pt>
 File: graphs/fig_4_6.jpg Graphic file (type jpg)
 <use graphs/fig_4_6.jpg>
 Package pdftex.def Info: graphs/fig_4_6.jpg  used on input line 413.
 (pdftex.def)             Requested size: 203.69203pt x 205.68822pt.
-[15]
-<graphs/fig_4_1.jpg, id=334, 334.24875pt x 310.15875pt>
+<graphs/fig_4_1.jpg, id=384, 334.24875pt x 310.15875pt>
 File: graphs/fig_4_1.jpg Graphic file (type jpg)
 <use graphs/fig_4_1.jpg>
 Package pdftex.def Info: graphs/fig_4_1.jpg  used on input line 470.
 (pdftex.def)             Requested size: 254.61894pt x 236.27681pt.
- [16 <./graphs/fig_4_6.jpg>]
+[17 <./graphs/fig_4_6.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 475--476
 
  []
 
-<graphs/fig_4_2.jpg, id=343, 510.90875pt x 489.83pt>
+<graphs/fig_4_2.jpg, id=394, 510.90875pt x 489.83pt>
 File: graphs/fig_4_2.jpg Graphic file (type jpg)
 <use graphs/fig_4_2.jpg>
 Package pdftex.def Info: graphs/fig_4_2.jpg  used on input line 484.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
-<graphs/fig_4_3.jpg, id=344, 510.90875pt x 489.83pt>
+<graphs/fig_4_3.jpg, id=395, 510.90875pt x 489.83pt>
 File: graphs/fig_4_3.jpg Graphic file (type jpg)
 <use graphs/fig_4_3.jpg>
 Package pdftex.def Info: graphs/fig_4_3.jpg  used on input line 496.
 (pdftex.def)             Requested size: 195.54634pt x 187.4752pt.
-<graphs/fig_4_4.jpg, id=345, 476.78125pt x 389.455pt>
+<graphs/fig_4_4.jpg, id=396, 476.78125pt x 389.455pt>
 File: graphs/fig_4_4.jpg Graphic file (type jpg)
 <use graphs/fig_4_4.jpg>
 Package pdftex.def Info: graphs/fig_4_4.jpg  used on input line 505.
 (pdftex.def)             Requested size: 203.69203pt x 166.38676pt.
-[17 <./graphs/fig_4_1.jpg> <./graphs/fig_4_2.jpg> <./graphs/fig_4_3.jpg> <./graphs/fig_4_4.jpg>]
+[18 <./graphs/fig_4_1.jpg> <./graphs/fig_4_2.jpg> <./graphs/fig_4_3.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 539--540
 
  []
 
-<graphs/fig_4_7.jpg, id=350, 560.0925pt x 351.3125pt>
+<graphs/fig_4_7.jpg, id=401, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_7.jpg Graphic file (type jpg)
 <use graphs/fig_4_7.jpg>
 Package pdftex.def Info: graphs/fig_4_7.jpg  used on input line 579.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
-<graphs/fig_4_8.jpg, id=351, 560.0925pt x 351.3125pt>
+[19 <./graphs/fig_4_4.jpg>]
+<graphs/fig_4_8.jpg, id=410, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_8.jpg Graphic file (type jpg)
 <use graphs/fig_4_8.jpg>
 Package pdftex.def Info: graphs/fig_4_8.jpg  used on input line 588.
 (pdftex.def)             Requested size: 254.61894pt x 159.70805pt.
-[18 <./graphs/fig_4_7.jpg>]
-<graphs/fig_4_9.jpg, id=359, 560.0925pt x 351.3125pt>
+<graphs/fig_4_9.jpg, id=411, 560.0925pt x 351.3125pt>
 File: graphs/fig_4_9.jpg Graphic file (type jpg)
 <use graphs/fig_4_9.jpg>
 Package pdftex.def Info: graphs/fig_4_9.jpg  used on input line 595.
@@ -1566,7 +1569,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 601--602
 
  []
 
-[19 <./graphs/fig_4_8.jpg> <./graphs/fig_4_9.jpg>]
+[20 <./graphs/fig_4_7.jpg> <./graphs/fig_4_8.jpg> <./graphs/fig_4_9.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 652--653
 
  []
@@ -1576,17 +1579,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 654--655
 
  []
 
-<graphs/fig_4_10.jpg, id=368, 466.74374pt x 367.3725pt>
+<graphs/fig_4_10.jpg, id=417, 466.74374pt x 367.3725pt>
 File: graphs/fig_4_10.jpg Graphic file (type jpg)
 <use graphs/fig_4_10.jpg>
 Package pdftex.def Info: graphs/fig_4_10.jpg  used on input line 673.
 (pdftex.def)             Requested size: 262.61894pt x 206.71378pt.
-<graphs/fig_4_11.jpg, id=369, 466.74374pt x 393.47pt>
+[21 <./graphs/fig_4_10.jpg>]
+<graphs/fig_4_11.jpg, id=426, 466.74374pt x 393.47pt>
 File: graphs/fig_4_11.jpg Graphic file (type jpg)
 <use graphs/fig_4_11.jpg>
 Package pdftex.def Info: graphs/fig_4_11.jpg  used on input line 690.
 (pdftex.def)             Requested size: 262.61894pt x 221.39836pt.
-[20 <./graphs/fig_4_10.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 710--711
 
  []
@@ -1596,26 +1600,82 @@ Underfull \hbox (badness 10000) in paragraph at lines 720--721
 
  []
 
-) [21 <./graphs/fig_4_11.jpg>] (./FNCE_1018_class_notes.aux)
+[22 <./graphs/fig_4_11.jpg>]) (./chapters/chapter_5.tex
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+[23]
+<graphs/fig_5_1.jpg, id=444, 964.60374pt x 444.66125pt>
+File: graphs/fig_5_1.jpg Graphic file (type jpg)
+<use graphs/fig_5_1.jpg>
+Package pdftex.def Info: graphs/fig_5_1.jpg  used on input line 109.
+(pdftex.def)             Requested size: 254.61894pt x 117.37329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+<graphs/fig_5_2.jpg, id=445, 964.60374pt x 444.66125pt>
+File: graphs/fig_5_2.jpg Graphic file (type jpg)
+<use graphs/fig_5_2.jpg>
+Package pdftex.def Info: graphs/fig_5_2.jpg  used on input line 120.
+(pdftex.def)             Requested size: 254.61894pt x 117.37329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<graphs/fig_5_3.jpg, id=446, 964.60374pt x 444.66125pt>
+File: graphs/fig_5_3.jpg Graphic file (type jpg)
+<use graphs/fig_5_3.jpg>
+Package pdftex.def Info: graphs/fig_5_3.jpg  used on input line 127.
+(pdftex.def)             Requested size: 254.61894pt x 117.37329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
+
+ []
+
+<graphs/fig_5_4.jpg, id=447, 964.60374pt x 444.66125pt>
+File: graphs/fig_5_4.jpg Graphic file (type jpg)
+<use graphs/fig_5_4.jpg>
+Package pdftex.def Info: graphs/fig_5_4.jpg  used on input line 137.
+(pdftex.def)             Requested size: 254.61894pt x 117.37329pt.
+[24 <./graphs/fig_5_1.jpg> <./graphs/fig_5_2.jpg> <./graphs/fig_5_3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+<graphs/fig_5_5.jpg, id=453, 960.58875pt x 352.31625pt>
+File: graphs/fig_5_5.jpg Graphic file (type jpg)
+<use graphs/fig_5_5.jpg>
+Package pdftex.def Info: graphs/fig_5_5.jpg  used on input line 168.
+(pdftex.def)             Requested size: 407.39186pt x 149.41792pt.
+<graphs/fig_5_6.jpg, id=454, 960.58875pt x 352.31625pt>
+File: graphs/fig_5_6.jpg Graphic file (type jpg)
+<use graphs/fig_5_6.jpg>
+Package pdftex.def Info: graphs/fig_5_6.jpg  used on input line 189.
+(pdftex.def)             Requested size: 407.39186pt x 149.41792pt.
+[25 <./graphs/fig_5_4.jpg> <./graphs/fig_5_5.jpg>] [26 <./graphs/fig_5_6.jpg>]) (./chapters/chapter_6.tex [27]) (./chapters/chapter_7.tex) (./chapters/chapter_8.tex) (./FNCE_1018_class_notes.aux)
 Package rerunfilecheck Info: File `FNCE_1018_class_notes.out' has not changed.
-(rerunfilecheck)             Checksum: 8DBA2BB575BC8FEACB326547ED289DFA;7257.
+(rerunfilecheck)             Checksum: 037707EE99C1CB45A0C1C94B6F8C969A;8944.
 Package logreq Info: Writing requests to 'FNCE_1018_class_notes.run.xml'.
 \openout1 = `FNCE_1018_class_notes.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 58026 strings out of 476025
- 1339215 string characters out of 5790017
- 2328767 words of memory out of 5000000
- 77296 multiletter control sequences out of 15000+600000
+ 58162 strings out of 476025
+ 1341782 string characters out of 5790017
+ 2326125 words of memory out of 5000000
+ 77387 multiletter control sequences out of 15000+600000
  614627 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,18n,102p,2056b,2416s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on FNCE_1018_class_notes.pdf (21 pages, 908406 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/stmaryrd/stmary10.pfb>
+Output written on FNCE_1018_class_notes.pdf (27 pages, 1668206 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 379 compressed objects within 4 object streams
- 107 named destinations out of 1000 (max. 500000)
- 484 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 470 compressed objects within 5 object streams
+ 134 named destinations out of 1000 (max. 500000)
+ 586 words of extra memory for PDF output out of 10000 (max. 10000000)
 
