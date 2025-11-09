@@ -1,0 +1,229 @@
+\section{Business Cycles, Aggregate Supply, Aggregate Demand}
+
+\subsection{Business Cycles}
+
+\begin{definition}
+    (Business cycle): The business cycle refers to the repeated sequence of economic expansion giving way to temporary decline followed by recovery.
+\end{definition}
+
+\begin{remark}
+    Burns and Mitchell: "Business cycles are a type of fluctuation found in the aggregate economic activity of nations that organize their work mainly in business enterprises. A cycle consists of expansions occurring at about the same time in many economic activities, followed by similarly general recessions, contractions, and revivals which merge into the expansion phase of the next cycle; this sequence of changes is recurrent but not periodic; in duration business cycles vary from more than one year to ten or twelve years." 
+
+    Note that
+    \begin{enumerate}
+        \item \textit{Aggregate economic activity}: business cycles refers to fluctuations in aggregate economic activity, not a specific variable such as real GDP. 
+        \item \textit{Expansions and contractions}: business cycle are temporary deviations from economy's normal growth path. A cycle is measured from peak to peak or trough to trough
+        \item \textit{Comovement}: expansions and contractions occur at about the same time in many economic activities across many economic variables
+        \item \textit{Recurrent but not periodic}: not periodic i.e. does not occur at regular, predictable time intervals for predetermined period of time. recurrent i.e. standard pattern happens again and again
+        \item \textit{persistence}: duration can vary greatly, but declines tend to be followed by more declines, growth tend to be followed by more growth
+    \end{enumerate} 
+\end{remark}
+
+\subsubsection{Business Cycle Facts}
+
+\begin{definition}
+    (Pro, counter, acyclical): An economic variable that moves in the same diirection as aggregate economic activity is \textbf{procyclical}. One that moves in opposite direction is \textbf{countercyclical}. Variables that do not display a clear pattern are \textbf{acyclical}.
+\end{definition}
+
+\begin{definition}
+    (Leading, lagging, coincident): An economic variable that move in advance of aggregate economic activity is \textbf{leading}. A variable whose peaks and troughs occur later than peaks and troughs in business activity is \textbf{lagging}. A variable whose peaks and troughs occur at about the same time as those in business activity is \textbf{coincident}.
+\end{definition}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{llll}
+\toprule
+\textbf{Category} & \textbf{Variable} & \textbf{Direction} & \textbf{Timing} \\
+\midrule
+Production & Industrial production & Procyclical & Coincident \\
+\addlinespace
+Expenditure & Consumption & Procyclical & Coincident \\
+ & Business fixed investment & Procyclical & Coincident \\
+ & Residential investment & Procyclical & Leading \\
+ & Inventory investment & Procyclical & Leading \\
+ & Government purchases & Procyclical & NA \\
+\addlinespace
+Labor Market & Employment & Procyclical & Coincident \\
+ & Unemployment & Countercyclical & Unclassified\textsuperscript{b} \\
+ & Average labor productivity & Procyclical & Leading\textsuperscript{a} \\
+ & Real wage & Procyclical & NA \\
+\addlinespace
+Money \& Prices & Money supply & Procyclical & Leading \\
+ & Inflation & Procyclical & Lagging \\
+\addlinespace
+Financial & Stock prices & Procyclical & Leading \\
+ & Nominal interest rates & Procyclical & Lagging \\
+ & Real interest rates & Acyclical & NA \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\subsection{AD-AS Model}
+
+\begin{definition}
+    (AD-AS): The AD-AS model has 3 key components 
+    \begin{enumerate}
+        \item \textit{Aggregate demand}: total quantity of goods and services, $Y$, demanded by households, firms and governments for any price level, $P$
+        \begin{itemize}
+            \item $AD$ is downward sloping because $P \downarrow \implies (M/P) \uparrow \implies r \uparrow \implies I \downarrow \implies AD \downarrow$
+        \end{itemize} 
+        \item \textit{Short Run Aggregate Supply}: amount of output producers are willing to supply at any price level, in the short run. Prices are assumed fixed in the short run, firms are willing to supply any amount.
+        \item \textit{Long Run Aggregate Supply}: amount of output producers are willing to supply at any price level, in the long run. Prices fully adjust, and the economy produces $\bar{Y} $
+    \end{enumerate} 
+\end{definition}
+
+\begin{remark}
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_8_1.jpg}
+    \end{center}
+\end{remark}
+
+\begin{definition}
+    (Consumption function): The consumption function is 
+    \[
+        C = a + m(Y - T) = a + mY_d 
+    \]
+    Where
+    \begin{itemize}
+        \item $Y_d = Y - T$ is disposable income
+    \end{itemize} 
+\end{definition}
+
+
+\begin{definition}
+    (MPC): The marginal propensity to consume is 
+    \[
+        MPC = \frac{\triangle C}{\triangle Y}
+    \]
+    In the above consumption function
+    \[
+        MPC = \frac{\triangle C}{\triangle Y} = m
+    \]
+\end{definition}
+
+\begin{definition}
+    (MPC): The marginal propensity to save is 
+    \[
+        MPS = \frac{\triangle S}{\triangle Y} = 1 - MPC
+    \]
+    In the above consumption function
+    \[
+        MPS = \frac{\triangle S}{\triangle Y} = 1 - m
+    \]
+\end{definition}
+
+\begin{definition}
+    (Multiplier): the multiplier associated with an increase in a particular kind of \textbf{autonomous spending} is the short-run change in total output resulting from one-unit change in that type of spending. \\
+    \[
+        multiplier = \frac{1}{MPS} = \frac{1}{1-m}
+    \]
+
+    Where a change in \textbf{autonomous spending} refers to change in spending not unrelated to change in GDP, examples include 
+    \begin{itemize}
+        \item change in $G$
+        \item change in $I$
+        \item change in $NX$
+        \item change in $C$ \textbf{unrelated} to change $Y$ (such as due to wealth or sentiment)
+    \end{itemize} 
+\end{definition}
+
+\begin{theorem}
+    (Neutrality of money): Starting from $\bar{Y} $, an increase in $M$ causes a proportional increase in $P$ but no change ot real economic variables.
+\end{theorem}
+
+\begin{remark}
+    There are 3 ways to see this. 
+    \begin{enumerate}
+        \item From money market equilibrium 
+        \[
+            P = \frac{M}{L( \bar{Y}, r)} \implies P \propto M
+        \]
+        Since in the long run, $\bar{Y} $ is determined by the labor market and $r$ is determined by the goods market
+        \item By velocity of money 
+        \[
+            M \bar{V}  = P \bar{Y} 
+        \]
+        Since $V$ and $Y$ fixed.
+        \item AD-AS
+        \begin{align*}
+            \text{Short run}:& M \uparrow \implies (M/P)\uparrow \implies r \downarrow \implies I \uparrow \implies AD \uparrow \implies Y \uparrow \\
+            \text{Long run}:& Y_2 > \bar{Y}  \implies P \uparrow \implies (M /P)\downarrow \implies r \uparrow \implies AD \downarrow \implies Y \downarrow
+        \end{align*}
+        \begin{center}
+        \includegraphics[width = 0.8\textwidth]{graphs/fig_8_2.jpg}
+        \end{center}
+    \end{enumerate} 
+\end{remark}
+
+
+
+\begin{remark}
+    (Decrease in $G$, no monetary policy) \\
+    In the Short Run ($(1) \to (2)$)
+    \begin{align*}
+        & G \downarrow \implies Y \downarrow \text{ with multiplier effects} \iff C \downarrow   \\
+        \implies & L(Y \downarrow) \downarrow \text{ i.e. money demand decreases} \\
+        \implies & r \downarrow \text{ by money market eqm} \\
+        \implies & I \uparrow \implies Y \shortuparrow 
+    \end{align*}
+
+    In the Long run ($(2) \to (3)$)
+    \begin{align*}
+        & Y_2 < \bar{Y}  \text{ i.e. excess supply} \\
+        \implies & P \downarrow  \\
+        \implies & \frac{M}{P} \uparrow \text{ real money supply increases} \\
+        \implies & r \downarrow \\
+        \implies & I \uparrow \\
+        \implies & Y \uparrow \text{ until } Y_3 = \bar{Y}  \text{ by equilibrating mechanism in AD-AS}
+    \end{align*}
+    \begin{center}
+    \includegraphics[width = 0.8\textwidth]{graphs/fig_8_3.jpg}
+    \end{center}
+
+    This matches our conclusion from earlier 
+    \begin{align*}
+        G\downarrow \implies S = (Y - C - G \downarrow)\uparrow \implies r \downarrow \implies S^d, I^d \uparrow \implies C \shortuparrow
+    \end{align*}
+
+    \begin{center}
+    \includegraphics[width = 0.5\textwidth]{graphs/fig_8_4.jpg}
+    \end{center}
+    Note the effect on $C$
+    \begin{itemize}
+        \item SR: $C \downarrow$ due to multiplier 
+        \item LR: $C \shortuparrow$ due to interest rate changes
+    \end{itemize} 
+\end{remark}
+
+\begin{remark}
+    (Decrease in $G$, with monetary policy) \\
+
+    If the Fed increases prevents a recession with expansionary monetary policy, then 
+
+    In the Short Run ($(1) \to (2)$), \textbf{no change from above}
+    \begin{align*}
+        & G \downarrow \implies Y \downarrow \text{ with multiplier effects} \iff C \downarrow   \\
+        \implies & L(Y \downarrow) \downarrow \text{ i.e. money demand decreases} \\
+        \implies & r \downarrow \text{ by money market eqm} \\
+        \implies & I \uparrow \implies Y \shortuparrow 
+    \end{align*}
+
+    From $(2) \to (3)$, 
+    \begin{align*}
+        M \uparrow \implies & \left(\frac{M\uparrow}{P}\right) \uparrow \implies r \downarrow \implies I \uparrow \implies Y \uparrow \text{ with multiplier}
+    \end{align*}
+
+    Note that there is no mechanism such that $Y_3$ will equal $\bar{Y} $. The Fed need to set $M$ so that $Y_3 = \bar{Y} $ ideally. 
+    
+
+
+\end{remark}
+
+\begin{remark}
+    (Change in $A$) \\
+\end{remark}
+
+
+
+
